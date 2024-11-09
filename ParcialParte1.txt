@@ -1,0 +1,51 @@
+Primera Entrega
+Parcial Arquitectura y Sistemas Operativos 
+Profesor: Pedro Rodriguez 
+Alumno: Facundo Acevedo 
+
+1) Teniendo en cuenta las capas del modelo OSI, mencionar que protocolos interactúan
+en las:
+a. Capa de Aplicación: Hay envió y recepción de datos/paquetes/información/datos.
+En la capa de aplicación se trabaja con protocolos como FTP (File transfer Protocol), HTTP (Hipertext
+Transfer Protocol), SMTP (Simple Mail Transfer Protocol), DNS (Domain Name Server), NFS (Network File System), telnet,
+etc.-
+b. Capa de Transporte: Protocolo que envia de información/paquetes sin una respuesta, en los cuales se hallan: 
+TCP (Transmission Control Protocol) y UDP (User Datagram Protocol) serían los protocolos de ente nivel.
+
+2) Detallar las clases de IP detallando la cantidad de bit destinados a la parte de Red y
+Host, para cada clase.
+
+A nivel practico existen 3 clases de redes. 
+
+Las clase A: En esta clase de red el primer octeto de la dirección IP define la red, y los tres octetos restantes se dedican a asignar direcciones a los hosts.
+	Ej: desde 00000000.xxxxxxxx.xxxxxxxx.xxxxxxxx (0.xxx.xxx.xxx) 
+	    hasta 01111111.xxxxxxxx.xxxxxxxx.xxxxxxxx (127.xxx.xxx.xxx)
+	    Debido a que las direcciones 127.xxx.xxx.xxx se utilizan para auto diagnóstico, el primer byte de esta clase estaría
+comprendido entre 1 y 126, y el número total de direcciones que se pueden asignar a hosts seria de 16.777.214.
+
+Las clase B: Los dos primeros octetos definen el rango de IP, y los dos restantes se asignan a los hosts de dicha red.
+	Ej: desde 10000000.xxxxxxxx.xxxxxxxx.xxxxxxxx (128.xxx.xxx.xxx)
+	    hasta 10111111.xxxxxxxx.xxxxxxxx.xxxxxxxx (191.xxx.xxx.xxx)
+	    En este caso el numero de IP asignables es de "65534".
+
+Las clase C: Los tres primeros octetos definen el tipo de red, y el ultimo las direcciones IP disponibles para asignación a hosts.
+	Ej: desde 11000000.xxxxxxxx.xxxxxxxx.xxxxxxxx (192.xxx.xxx.xxx)
+	    hasta 11011111.xxxxxxxx.xxxxxxxx.xxxxxxxx (223.xxx.xxx.xxx) El
+            número de direcciones IP disponibles en esta clase seria de "254".
+
+Las clase D: Con rango desde 224.xxx.xxx.xxx hasta 239.xxx.xxx.xxx , utilizada para multicast y otros usos específicos.
+
+Clases E aun estan sin especificar. 
+
+3- Mencionar tres tipos de componentes que pueden conectar en una red PAN.
+
+Componentes: 
+
+1. Celular: Con las tecnologias ya disponibles en los dispositivos moviles podemos decir que el celular puede proveer de una red PAN (Personal Area Network) y esta puede crear hasta 2 redes, una mediante la teconologia bluetooh y otra mediante WIFI. 
+2. Router personales: Los router hogareños ya cuentan con la capacidad de crear redes tanto alambricas como inalambricas mediante WIFi y cables Ethernet con la capacidad de proveer una red PAN.
+3. Accesorios informaticos tales como adaptadores bluetooth y WIFI ya cuentan con la capacidad de conectarlos a una computadora y proporcionar una red PAN. 
+
+4- Responder:
+a. A que red wifi estas conectado: Estoy conectado a la red WIFI que me provee mi celular (podria considerarse red PAN) 
+b. A que rango de IP pertenece: Poseo la ip "192.168.29.134" la cual es una ip de tipo C.
+
