@@ -48,4 +48,42 @@ Componentes:
 4- Responder:
 a. A que red wifi estas conectado: Estoy conectado a la red WIFI que me provee mi celular (podria considerarse red PAN) 
 b. A que rango de IP pertenece: Poseo la ip "192.168.29.134" la cual es una ip de tipo C.
+RECURSOS BASICOS A CONFIGURAR PARA LA INSTALACION DE UNA MAQUINA VIRTUAL: 
+A la hora de crear una maquina virtual utilizando una herramienta tal como VirtualBox se debe tener en cuenta los recursos que a esta se
+le han de asignar tales como espacio de almacenamiento, memoria ram, y cuanta capacidad de procesador se le asignara a la ya mencionada. 
+Entonces los recursos básicos para la configuración serian: 
+Almacenamiento
+Memoria Ram 
+Procesador
+Excluyendo el echo de que ya se tendría que tener un S.O ya seleccionado. 
+
+8- Mencionar los servicios que podemos utilizar de la Nube: PaaS. 
+
+En las nube de tipo PaaS se pueden encontrar plataformas dirigidas a un publico desarrollador de software tales como Microsoft Azure, Apex y o GitHub que son entornos que ofrecen todo lo que se necesita para crear, ejecutar y gestionar aplicaciones. 
+
+9- Definir: 
+Rama: Es una versión del código de un proyecto que se crea para desarrollar funciones, corregir errores o experimentar con nuevas ideas
+Repositorio: Es un lugar donde puedes almacenar el código, los archivos y el historial de revisiones de cada archivo. Los repositorios pueden contar con múltiples colaboradores y pueden ser públicos como privados.
+
+Las 3 areas en las que gitbush interactua y sus funciones las cuales son tres estados principales en los que se pueden encontrar los archivos: confirmado (committed), modificado (modified), y preparado (staged).
+
+RECURSOS BASICOS A CONFIGURAR PARA LA INSTALACION DE UNA MAQUINA VIRTUAL: 
+A la hora de crear una maquina virtual utilizando una herramienta tal como VirtualBox se debe tener en cuenta los recursos que a esta se
+le han de asignar tales como espacio de almacenamiento, memoria ram, y cuanta capacidad de procesador se le asignara a la ya mencionada. 
+Entonces los recursos básicos para la configuración serian: 
+Almacenamiento
+Memoria Ram 
+Procesador
+Excluyendo el echo de que ya se tendría que tener un S.O ya seleccionado. 
+
+8- Mencionar los servicios que podemos utilizar de la Nube: PaaS. 
+
+En las nube de tipo PaaS se pueden encontrar plataformas dirigidas a un publico desarrollador de software tales como Microsoft Azure, Apex y o GitHub que son entornos que ofrecen todo lo que se necesita para crear, ejecutar y gestionar aplicaciones. 
+
+9- Definir: 
+Rama: Es una versión del código de un proyecto que se crea para desarrollar funciones, corregir errores o experimentar con nuevas ideas
+Repositorio: Es un lugar donde puedes almacenar el código, los archivos y el historial de revisiones de cada archivo. Los repositorios pueden contar con múltiples colaboradores y pueden ser públicos como privados.
+
+Las 3 areas en las que gitbush interactua y sus funciones las cuales son tres estados principales en los que se pueden encontrar los archivos: confirmado (committed), modificado (modified), y preparado (staged).
+
 
